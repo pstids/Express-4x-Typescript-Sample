@@ -3,11 +3,8 @@
 # Install packages
 npm install
 
-# Install typings
-./node_modules/.bin/tsd reinstall -so
-
 # Transpile
-./node_modules/.bin/tsc --sourcemap --module commonjs ./bin/www.ts
+./node_modules/.bin/tsc --sourcemap  ./bin/www.ts
 
 # Run
-DEBUG=Express-4x-Typescript-Sample:* ./bin/www
+DEBUG=express-ts:* ./bin/www

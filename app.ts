@@ -1,6 +1,3 @@
-
-/// <reference path='./typings/tsd.d.ts' />
-
 import express = require('express');
 import path = require('path');
 import favicon = require('serve-favicon');
@@ -15,7 +12,7 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
