@@ -10,9 +10,11 @@
         "suppressExcessPropertyErrors": true,
         "typeRoots": [
             "node_modules/@types"
-        ]
+        ],
+        "outDir": "./build"
     },
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "gulpfile.ts"
     ]
 }
